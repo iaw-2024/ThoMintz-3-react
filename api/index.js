@@ -1,4 +1,4 @@
-import datos from "./datos.json" assert { type: 'json' };
+import datos from "./datos.js";
 const cors = require('cors');
 const express = require('express');
 import path, { dirname } from "path";
