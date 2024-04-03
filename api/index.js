@@ -1,6 +1,6 @@
 import datos from "./datos.json" assert { type: 'json' };
-const cors = require('cors');
-const express = require('express');
+import cors from 'cors';
+import express from 'express';
 import path, { dirname } from "path";
 import { fileURLToPath } from 'url';
 
