@@ -1,4 +1,4 @@
-import datos from "./datos.json" assert { type: 'json' };
+import datos from "datos.json" assert { type: 'json' };
 import cors from 'cors';
 import express from 'express';
 import path, { dirname } from "path";
