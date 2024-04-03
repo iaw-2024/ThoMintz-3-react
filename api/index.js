@@ -3,11 +3,10 @@ import cors from 'cors';
 import express from 'express';
 import path, { dirname } from "path";
 import { fileURLToPath } from 'url';
+import datos from './datos.js';
+
 const __dirname = path.dirname(__filename);
 const __filename = fileURLToPath(import.meta.url);
-
-import datos from 'datos.js';
-
 
 
 const app = express();
