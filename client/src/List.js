@@ -7,6 +7,7 @@ function ListaSeries() {
 
     fetch(url)
       .then(response => response.json())
+      
       .then(data => {
         console.log(data);
         data.forEach((serie, index) => {
