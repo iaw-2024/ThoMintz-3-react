@@ -38,7 +38,6 @@ const datos = [
         nombre: "El Maravilloso Mundo De Gumball",
         sinopsis: "\"El Maravilloso Mundo de Gumball\" sigue las aventuras de Gumball Watterson, un gato azul, y su hermano adoptivo Darwin, un pez dorado, mientras navegan por la vida en la ciudad de Elmore. La serie combina animación tradicional, animación por computadora y elementos de acción en vivo para contar las historias absurdas y a menudo surrealistas de Gumball y su familia. Con su humor ingenioso y sus personajes coloridos, la serie ofrece una experiencia de visualización única y divertida para todas las edades.",
         imagen: "images/el_maravilloso_mundo_de_gumball.jfif"
-
     },
     {
         nombre: "Samurai Jack",
@@ -50,6 +49,6 @@ const datos = [
         sinopsis: "\"Las Chicas Superpoderosas\" sigue las aventuras de tres niñas superpoderosas, Burbuja, Bombón y Bellota, creadas por el Profesor Utonio para proteger la ciudad de Saltadilla de villanos y monstruos. La serie combina acción, comedia y mensajes positivos mientras las chicas luchan contra el crimen y defienden la justicia. Con su estilo de animación vibrante y humor ingenioso, \"Las Chicas Superpoderosas\" se ha convertido en un clásico de la animación que sigue siendo querido por fans de todas las edades.",
         imagen: "images/las_chicas_superpoderosas.jfif"
     }
-];
+]
 
 export default datos;

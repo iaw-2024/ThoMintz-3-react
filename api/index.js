@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(__filename);
 const __filename = fileURLToPath(import.meta.url);
 
-import datos from path.resolve(__dirname, "datos.json") assert { type: 'json' };
+import datos from 'datos.js';
 
 
 
