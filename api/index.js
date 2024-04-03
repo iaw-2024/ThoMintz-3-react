@@ -1,4 +1,4 @@
-import datos from "./datos.js";
+import datos from "./datos.json";
 const cors = require('cors');
 const express = require('express');
 import path, { dirname } from "path";
