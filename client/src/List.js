@@ -3,11 +3,11 @@ import './List.css';
 
 function ListaSeries() {
   useEffect(() => {
-    const url = "/api/datos";
+    const url = "/datos";
 
     fetch(url)
       .then(response => response.json())
-      
+
       .then(data => {
         console.log(data);
         data.forEach((serie, index) => {
