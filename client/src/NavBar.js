@@ -4,7 +4,7 @@ import './NavBar.css';
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="https://www.cartoonnetwork.com.ar/">
                 <img src="images/cartoonLogo.png" className="Imagen-Cards" alt="Un Show Mas" style={{ width: '150px', height: 'auto' }} />
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
