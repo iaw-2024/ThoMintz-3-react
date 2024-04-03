@@ -1,11 +1,15 @@
 import datos from "./datos.json";
 const cors = require('cors');
 const express = require('express');
-const fs = require('fs');
+import path, { dirname } from "path";
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 app.use(cors());
-app.use(express.static('public'));
+app.use(express.static(path.resolve(__dirname, "..", "client", "build")));
 
 const PORT = 3002;
 
