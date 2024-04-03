@@ -14,13 +14,13 @@ function NavBar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home</a>
+                        <a className="nav-link" href="https://www.cartoonnetwork.com.ar/">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Juegos</a>
+                        <a className="nav-link" href="https://www.cartoonnetwork.com.ar/">Juegos</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Sobre nosotros</a>
+                        <a className="nav-link" href="https://www.cartoonnetwork.com.ar/">Sobre nosotros</a>
                     </li>
                 </ul>
             </div>
