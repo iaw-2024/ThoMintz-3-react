@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './List.css';
+//import './List.css';
 import SerieItem from './SerieItem';
 
 function ListaSeries() {
