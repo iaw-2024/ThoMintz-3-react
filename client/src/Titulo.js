@@ -1,5 +1,5 @@
 import React from 'react';
-import './Titulo.css';
+//import './Titulo.css';
 
 
 function Titulo() {

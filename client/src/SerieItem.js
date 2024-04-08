@@ -1,5 +1,5 @@
 import React from 'react';
-import './SerieItem.css';
+//import './SerieItem.css';
 
 function SerieItem({ serie, index }) {
     return (
