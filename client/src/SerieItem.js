@@ -25,7 +25,7 @@ function SerieItem({ serie, index }) {
                             <span>{serie.sinopsis}</span>
                             <br />
                             <span className="Imagen-Cards">
-                                <img src={serie.imagen} alt={serie.nombre} />
+                                <img src={serie.imagen} alt={serie.nombre} style={{ width: '150px', height: '200px' }} />
                             </span>
                         </div>
                     </div>
