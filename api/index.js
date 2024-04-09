@@ -17,7 +17,7 @@ app.use(express.static(path.resolve(__dirname, "..", "client", "build")));
 const PORT = 3002;
 
 // Endpoint para obtener todas las series
-app.get("/datos", (req, res) => {
+app.get("/api/datos", (req, res) => {
     res.send(datos);
 });
 

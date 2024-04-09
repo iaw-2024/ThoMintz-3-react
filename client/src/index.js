@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+//import './index.css';
 import NavBar from './NavBar';
 import reportWebVitals from './reportWebVitals';
 import ListaSeries from './List';

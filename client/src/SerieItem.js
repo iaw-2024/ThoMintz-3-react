@@ -1,5 +1,4 @@
 import React from 'react';
-//import './SerieItem.css';
 
 function SerieItem({ serie, index }) {
     return (
@@ -24,9 +23,8 @@ function SerieItem({ serie, index }) {
                         <div className="content_image">
                             <span>{serie.sinopsis}</span>
                             <br />
-                            <span className="Imagen-Cards">
-                                <img src={serie.imagen} alt={serie.nombre}  />
-                            </span>
+                            <img className="Imagen-Cards" src={serie.imagen} alt={serie.nombre}/>
+  
                         </div>
                     </div>
                 </div>

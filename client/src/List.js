@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-//import './List.css';
 import SerieItem from './SerieItem';
 
 function ListaSeries() {
   const [series, setSeries] = useState([]);
   useEffect(() => {
-    const url = "/datos";
+    const url = "/api/datos";
 
     fetch(url)
       .then(response => response.json())

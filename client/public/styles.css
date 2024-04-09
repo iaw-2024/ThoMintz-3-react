@@ -4,7 +4,7 @@ body {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
-
+    
 
 }
 
@@ -51,5 +51,9 @@ h1 {
 h1 {
     text-align: center;
     color: black;
+    padding: 50px;
+}
+
+ul {
     padding: 50px;
 }
