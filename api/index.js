@@ -1,10 +1,28 @@
-const express = require("express");
+
+import cors from 'cors';
+import express from 'express';
+import path, { dirname } from "path";
+import { fileURLToPath } from 'url';
+import datos from './datos.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+
+
 const app = express();
+app.use(cors());
+app.use(express.static(path.resolve(__dirname, "..", "client", "build")));
 
-app.get("/datos", (req, res) => res.send("Express on Vercel!"));
-app.use(express.static('public'))
+const PORT = 3002;
+
+// Endpoint para obtener todas las series
+app.get("/api/datos", (req, res) => {
+    res.send(datos);
+});
 
 
-app.listen(3001, () => console.log("Server ready on port 3001."));
-
-module.exports = app;
+// Iniciar servidor
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
